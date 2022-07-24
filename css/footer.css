@@ -1,0 +1,24 @@
+/*FOOTER*/
+footer{
+    background-color: #67568c;
+    color: white;
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-between;
+    font-weight: 500px;/*ширина букв*/
+    font-size: 18px;/*толщина и размер букв*/
+    padding: 25px;
+}
+#footerMenu{
+    display: flex;
+    flex-direction: row;
+}
+.footer-menu-items{
+    display: flex;
+    flex-direction: row;  
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.footer-right-item{
+
+}

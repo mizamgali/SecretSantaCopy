@@ -1,0 +1,93 @@
+/*HEADER*/
+header{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;/*расположение флекс элемента*/
+    height: 35px;
+}
+/*Только коробка, уведомления и логин*/
+#menu{
+    display: flex;
+    flex-direction: row;
+    margin: 30px 20px;
+}
+.menu-item{
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+}
+.menu-item img{
+    margin-right: 10px;
+}
+#santas{
+    margin: 25px 25px;/*(top, bottom) (left, right)*/
+}
+/*LOGO*/
+#logo{
+    display: flex;
+    flex-direction: column;
+
+    margin: 30px auto;
+}
+#webInfo h1{
+    font-size: 4rem;/*размер шрифта*/
+    letter-spacing: 0;/*расстояние между буквами*/
+    line-height: 2rem;/*длинна строк*/
+}
+#webInfo h1 span{
+    color: red;
+}
+#webInfo h2{
+    font-size: 1.325rem;/*размер шрифта*/
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-weight: 500;/*толщина букв*/
+
+    color: #333640;
+}
+#webInfo{
+    text-align: center;
+}
+.redButton{
+    color: white;
+    background-color: red;
+    padding: 10px 20px;
+
+    margin: 0 auto;
+    margin-right: 15px;
+    
+    font-size: 1.125rem;/*размер шрифта*/
+    letter-spacing: 0;
+    line-height: 1.625rem;/*высота строки, что бы между строками был какой то промежуток*/
+    font-weight: 600;/*толщина букв*/
+
+    border-radius: 30px;/*закругление углов элемента*/
+    border-width: 2px;/*толщина обводки*/
+    border-style: solid;/*стиль(сплошной) есть двухцветные и пунктир*/
+    border-color: white;/*цвет обводки*/
+    cursor: pointer;/*курсор меняем на указывающий указательный палец*/
+}
+/*hover-при наведении курсором*/
+.redButton:hover{
+    box-shadow: 0 0.3125rem 0.75rem 0.0625rem rgb(236 102 98 / 24%);/*сверху снизу справа слева(размер тени)*/
+}
+.whiteButton{
+    margin: 0 auto;/* типа text-alighn: auto;, но для элементов а не текстов*/
+    padding: 10px 20px;
+    color: black;
+    background-color: white;
+
+    font-size: 1.125rem;/*размер шрифта*/
+    letter-spacing: 0;
+    line-height: 1.625rem;/*высота строки, что бы между строками был какой то промежуток*/
+    font-weight: 600;/*толщина букв*/
+    
+    border-radius: 30px;/*закругление углов элемента*/
+    border-width: 2px;/*толщина обводки*/
+    border-color: aliceblue;/*цвет обводки*/
+    border-style: solid;/*стиль обводки*/
+}
+.whiteButton:hover{
+    box-shadow: 0 0.375rem 1rem 0 rgb(142 142 166 / 16%);
+}

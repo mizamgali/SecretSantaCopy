@@ -4,8 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css" type="text/css">
+    <!----------------------CSS------------------------------->
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="css/questions.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <!----------------------Fonts--------------------------->
     <link rel="stylesheet" href="/fonts/stylesheet.css">
+    <!----------------------------->
     <title>Secret-santa</title>
 </head>
 <body> 
@@ -44,13 +50,15 @@
 
         <!--СЕТКА С ИНСТРУКЦИЯМИ-КАРТИНОЧКАМИ-->
         <div id="how-it-works"> 
+            <h1>How it works?</h1>
             <!--ПЕРВЫЙ ПУНКТ-->
             <div class="instruction">
 
                 <!--левая часть 1 пункта-->
                 <div class="left">
-                    <h3>How it works?</h3>
-                    <span class="instruction-number">1</span>
+                    <div class="instruction-number-circle">
+                        <span class="instruction-number">1</span>
+                    </div>
                     <p class="instruction-text">Create a draw box with a name, gift 
                         limit, and other <br> options as you wish.
                         Invite your friends by sending <br> them a link
@@ -109,7 +117,9 @@
 
                 <!--правая часть 2 пункта-->
                 <div class="right">
-                    <span class="instruction-number">2</span>
+                    <div class="instruction-number-circle">
+                        <span class="instruction-number">2</span>
+                    </div>
                     <p class="instruction-text"> 
                         Participants can add their wishes for a gift and a <br>
                         mailing address to the card. Keep an eye on the <br>
@@ -123,7 +133,9 @@
             <div class="instruction">
                 <!--левая часть 3 пункта-->
                 <div class="left">
-                    <span class="instruction-number">3</span>
+                    <div class="instruction-number-circle">
+                        <span class="instruction-number">3</span>
+                    </div>
                     <p class="instruction-text">
                         Immediately after the drawing of lots, all participants <br>
                         will receive a notification by mail, and they will find out <br>
@@ -174,7 +186,7 @@
                             </p>
                         </div>
 
-                        <div class="qustion-item-wapper"></div>
+                        <hr>
                     </div>
                     <div class="question-item">
                         <div class="question-item-q">
@@ -192,7 +204,7 @@
                             </p>
                         </div>
 
-                    <div class="qustion-item-wapper"></div>
+                    <hr>
                     </div>
                     
                     <div class="question-item">
@@ -210,7 +222,7 @@
                             </p>
                         </div>
 
-                        <div class="qustion-item-wapper"></div>
+                        <hr>
                     </div>    
 
                     <div class="question-item">
@@ -229,7 +241,7 @@
                             </p>
                         </div>
 
-                        <div class="qustion-item-wapper"></div>
+                        <hr>
                     </div>   
                     
                     <div class="question-item">
@@ -247,7 +259,7 @@
                             </p>
                         </div>
 
-                        <div class="qustion-item-wapper"></div>
+                        <hr>
                     </div>
 
                     <div class="question-item">
@@ -265,7 +277,7 @@
                             </p>
                         </div>
 
-                        <div class="qustion-item-wapper"></div>
+                        <hr>
                     </div>
 
                     <div class="question-item">
@@ -283,7 +295,7 @@
                             </p>
                         </div>
 
-                    <div class="qustion-item-wapper"></div>
+                    <hr>
                     </div>
 
                     <div class="question-item">
@@ -300,8 +312,6 @@
                                 
                             </p>
                         </div>
-
-                    <div class="qustion-item-wapper"></div>
                     </div>
                 </div>
             </div>
@@ -325,9 +335,9 @@
         <span class="footer-right-item">© 2014-2021 Santa-Secret</span>
     </footer>
 
-    <script src="/script.js"></script>
+    <script src="script/script.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-    <script src="/snowfall.js"></script>
+    <script src="script/snowfall.js"></script>
     <script type="text/javascript">
         $(document).ready(function(){
             $(document).snowfall({image :"/img/2.png", minSize: 10, maxSize:20});
