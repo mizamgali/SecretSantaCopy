@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css" type="text/css">
+    <link rel="stylesheet" href="/fonts/stylesheet.css">
+    <title>Secret-santa</title>
+</head>
+<body> 
+    <header>
+        <div id="santas"><span>737,165 Santas this year</span></div>
+        <div id="menu">
+            <div class="menu-item">
+                <img src="image/box.png" alt="boxes" width="20px">
+                <span>Boxes</span>
+            </div>
+            <div class="menu-item">
+                <img src="image/notif.png" alt="notification" width="20px">
+                <span>Notification</span>
+            </div>
+            <div class="menu-item">
+                <img src="image/man.png" alt="login" width="20px">
+                <span>Login</span>
+            </div>
+        </div>    
+    </header>
+
+    <div id="content">
+        <!--КАРТИНКА С ЖИВОТНЫМИ-->
+        <div id="logo">
+            <img src="/image/bgAnimals.png" alt="" width="100%">
+        </div>
+        <!--Текст под картинкой и кнопкой-->
+        <div id="webInfo">
+            <h1>secret santa <span>.</span></h1>
+            <h2>Organize a secret exchange of gifts between friends or colleagues</h2>
+            <div id="logo-button">
+                <button class="redButton">Create box</button>
+                <button class="whiteButton">Quick draw</button>
+            </div>
+        </div>
+
+        <!--СЕТКА С ИНСТРУКЦИЯМИ-КАРТИНОЧКАМИ-->
+        <div id="how-it-works"> 
+            <!--ПЕРВЫЙ ПУНКТ-->
+            <div class="instruction">
+
+                <!--левая часть 1 пункта-->
+                <div class="left">
+                    <h3>How it works?</h3>
+                    <span class="instruction-number">1</span>
+                    <p class="instruction-text">Create a draw box with a name, gift 
+                        limit, and other <br> options as you wish.
+                        Invite your friends by sending <br> them a link
+                        to the box or by manually entering their <br>
+                        email addresses.
+                    </p>
+                </div>
+
+                <!--правая часть 1 пункта-->
+                <div class="right">
+                    <div class="part-screenshot purple"><!--фиолетовая хрень-->
+                        <div class="part-screenshot-inside"><!--белая хрень-->
+                            <div id="part-screenshot-inside-top">
+                                <h3>Gift cost</h3>
+                                <div id="screenshot-item1"><!--Limit the value of gift-->
+                                    <span>Limit the value of gift</span>
+                                    <div id="toggle"><!--переключатель-->
+                                        <div id="toggle-circle"></div><!--белый кругляжочек в переключателе-->
+                                    </div>
+                                </div>
+                                <div id="part-screenshot-inside-item_2">
+                                    <div id="sum">
+                                        <span>Сумма</span>
+                                        <div id="sum-box"><span>1500</span></div>
+                                    </div>
+
+                                    <div id="val">
+                                        <span>Валюта</span>
+                                        <div id="val-box"><span>Рубль</span></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="part-screenshot-inside-bottom">
+                                <span class="arrow purple">←</span>
+                                <span class="step">step 2 of 4</span>
+                                <span class="arrow red">→</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--ВТОРОЙ ПУНКТ-->
+            <div class="instruction">
+                <!--левая часть 2 пункта-->
+                <div class="left">  
+                    <div class="part-screenshot pink">
+                        <div class="part-screenshot-inside">
+                            <span id="screen-name">Christopher Nolan</span>
+                            <p id="screen-hello-santa">Hello dear Santa! I have behaved very well this year and therefore I hope you will give me a good surprise. They say a book is the best gift ..</p>
+                        </div>
+
+                    </div>              
+                </div>
+
+                <!--правая часть 2 пункта-->
+                <div class="right">
+                    <span class="instruction-number">2</span>
+                    <p class="instruction-text"> 
+                        Participants can add their wishes for a gift and a <br>
+                        mailing address to the card. Keep an eye on the <br>
+                        replenishment of the membership cards and, as soon <br>
+                        as all players have registered, carry out a secret draw.
+                   </p>
+               </div>
+            </div>
+
+            <!--ТРЕТИЙ ПУНКТ-->
+            <div class="instruction">
+                <!--левая часть 3 пункта-->
+                <div class="left">
+                    <span class="instruction-number">3</span>
+                    <p class="instruction-text">
+                        Immediately after the drawing of lots, all participants <br>
+                        will receive a notification by mail, and they will find out <br>
+                        who needs to prepare a gift.
+                    </p>
+                </div>
+
+                <!--правая часть 3 пункта-->
+                <div class="right">
+                   <div class="part-screenshot blue">
+                       <div class="part-screenshot-inside">
+                           <span id="secret-santa">Secret Santa <span>.</span></span>
+                           <div id="animals-item">
+                               <img src="/image/animals-item.png" alt="">
+                           </div>
+                           <p id="text-item">
+                            Здравствуйте, Евгений!
+                            <br>
+                            <br>
+                            Жеребьевка в коробке «Тайный Санта» была<br> проведена, 
+                            и у вас появился подопечный! Скорее<br> переходите на 
+                            сайт, чтобы узнать, кто это!
+                           </p>
+                           <span id="button-item">Find out the ward</span>
+                       </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="questions">
+            <h2>Questions and answers about service</h2>
+
+            <div class="common-questions"> 
+                <div class="question-block">
+                    <div class="question-item">
+                        <div class="question-item-q">
+                            <div class="question-text">
+                            <span class="mystery-mark">?</span> 
+                            <span>What is Secret Santa?</span> 
+                            </div>                           
+                        </div>
+
+                        <div class="question-item-answer">
+                            <p>
+                                Secret Santa is a popular anonymous gift exchange ceremony. This is a New Year's game with simple rules: each participant is a Secret Santa for one of the other participants and secretly prepares a gift for him. As a result, everyone gets both the joy of preparing a surprise and a gift.
+                                This site is a service that helps organize this game online.
+                            </p>
+                        </div>
+
+                        <div class="qustion-item-wapper"></div>
+                    </div>
+                    <div class="question-item">
+                        <div class="question-item-q">
+                            <div class="question-text">
+                            <span class="mystery-mark">?</span> 
+                            <span>Why and for whom was this site created?</span> 
+                            </div>
+                                
+                        </div>
+
+                        <div class="question-item-answer">
+                            <p>
+                                Secret Santa is a popular anonymous gift exchange ceremony. This is a New Year's game with simple rules: each participant is a Secret Santa for one of the other participants and secretly prepares a gift for him. As a result, everyone gets both the joy of preparing a surprise and a gift.
+                                This site is a service that helps organize this game online.
+                            </p>
+                        </div>
+
+                    <div class="qustion-item-wapper"></div>
+                    </div>
+                    
+                    <div class="question-item">
+                        <div class="question-item-q">
+                            <div class="question-text">
+                            <span class="mystery-mark">?</span> 
+                            <span>What does "box" mean?</span> 
+                            </div>
+                        </div>
+
+                        <div class="question-item-answer">
+                            <p>
+                                Secret Santa is a popular anonymous gift exchange ceremony. This is a New Year's game with simple rules: each participant is a Secret Santa for one of the other participants and secretly prepares a gift for him. As a result, everyone gets both the joy of preparing a surprise and a gift.
+                                This site is a service that helps organize this game online.
+                            </p>
+                        </div>
+
+                        <div class="qustion-item-wapper"></div>
+                    </div>    
+
+                    <div class="question-item">
+                        <div class="question-item-q">
+                            <div class="question-text">
+                            <span class="mystery-mark">?</span> 
+                            <span>What is a "box organizer"?</span> 
+                            </div>
+                            
+                        </div>
+
+                        <div class="question-item-answer">
+                            <p>
+                                Secret Santa is a popular anonymous gift exchange ceremony. This is a New Year's game with simple rules: each participant is a Secret Santa for one of the other participants and secretly prepares a gift for him. As a result, everyone gets both the joy of preparing a surprise and a gift.
+                                This site is a service that helps organize this game online.
+                            </p>
+                        </div>
+
+                        <div class="qustion-item-wapper"></div>
+                    </div>   
+                    
+                    <div class="question-item">
+                        <div class="question-item-q">
+                            <div class="question-text">
+                            <span class="mystery-mark">?</span> 
+                            <span>How to organize Secret Santa with this site?</span> 
+                            </div>
+                            
+                        </div>
+
+                        <div class="question-item-answer">
+                            <p>
+                                
+                            </p>
+                        </div>
+
+                        <div class="qustion-item-wapper"></div>
+                    </div>
+
+                    <div class="question-item">
+                        <div class="question-item-q">
+                            <div class="question-text">
+                            <span class="mystery-mark">?</span> 
+                            <span>Is there a limit on the number of participants in a box?</span> 
+                            </div>
+                            
+                        </div>
+
+                        <div class="question-item-answer">
+                            <p>
+                                
+                            </p>
+                        </div>
+
+                        <div class="qustion-item-wapper"></div>
+                    </div>
+
+                    <div class="question-item">
+                        <div class="question-item-q">
+                            <div class="question-text">
+                            <span class="mystery-mark">?</span> 
+                            <span>Is it possible to draw lots without creating a box and registering participants?</span>
+                            </div> 
+                            
+                        </div>
+
+                        <div class="question-item-answer">
+                            <p>
+                                
+                            </p>
+                        </div>
+
+                    <div class="qustion-item-wapper"></div>
+                    </div>
+
+                    <div class="question-item">
+                        <div class="question-item-q">
+                            <div class="question-text">
+                            <span class="mystery-mark">?</span> 
+                            <span>Is this a free service?</span> 
+                            </div>
+                            
+                        </div>
+
+                        <div class="question-item-answer">
+                            <p>
+                                
+                            </p>
+                        </div>
+
+                    <div class="qustion-item-wapper"></div>
+                    </div>
+                </div>
+            </div>
+        
+            <div id="anotherQuestion">
+                <p>Are there any other questions?</p>
+                <p>Look for the answer on the Frequently Asked Questions page</p>
+            </div>
+        </div>  
+    </div>
+
+    <footer>
+        <div id="footerMenu">
+            <span class="footer-menu-items">Quick draw</span>
+            <span class="footer-menu-items">FAQ</span>
+            <span class="footer-menu-items">Gift Ideas</span>
+            <span class="footer-menu-items">Help the project</span>
+            <span class="footer-menu-items">Feedback</span>
+        </div>
+
+        <span class="footer-right-item">© 2014-2021 Santa-Secret</span>
+    </footer>
+
+    <script src="/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="/snowfall.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $(document).snowfall({image :"/img/2.png", minSize: 10, maxSize:20});
+      });
+    </script>
+
+    
+</body>
+</html>
